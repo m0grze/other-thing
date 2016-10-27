@@ -3,7 +3,6 @@
 AncsNotification notifications[8];
 
 void setup() {
-  // Serial port is initialized automatically; we don't have to do anything
   BeanAncs.enable();
   pinMode(FIRE, OUTPUT);
   digitalWrite(FIRE, HIGH);
